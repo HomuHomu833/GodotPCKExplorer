@@ -11,6 +11,7 @@ on:
       - 'Bruteforcer/**'
       - '.github/workflows/**'
       - 'version.txt'
+  workflow_dispatch:
 
 env:
   ARTIFACT_NAME: PCKBruteforcer_Windows
